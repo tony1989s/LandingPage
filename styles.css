@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&display=swap');
+
+
+:root {
+    --pink: #F25E5E; 
+    --light-blue: #049DBF; 
+    --blue: #025E73;
+    --skyblue: #04C4D9; 
+    --orange: #D98452; 
+}
+
+body {
+    margin: 0;
+    background-color: #04C4D9;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header {
+    background-color: var(--blue);
+    padding: 25px;
+}
+
+header h3 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 25px;
+    color: var(--orange);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main > header {
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    border: solid 1px var(--blue);
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks', Arial,sans-serif;
+    margin: 0;
+    font-size: 50px;
+    color: var(--pink);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header > h2 {
+    color: var(--orange);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin: 0 20px;
+}
+
+section p {
+    color: var(--pink);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+section h3 {
+    color: var(--orange);
+}
+
+ul {
+    background-color: var(--light-blue);
+    line-height: 30px;
+    
+}
+
+li {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+li:nth-child(even) {
+    background-color: var(--skyblue);
+}
+
+
+
+li::marker {
+    content: "\266B \2002";
+    color: var(--orange);
+}
+
+ul + p {
+    background-color: var(--skyblue);
+    padding: 20px;
+    margin: 0;
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.limited-places{
+    background-color: var(--light-blue);
+    padding: 20px;
+    color: var(--blue);
+    font-size: 20px;
+    margin: 0;
+}
+
+main a {
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--blue);
+}
+
+main a:hover {
+    background-color: var(--skyblue);
+    color: var(--pink);
+}
+
+.quote {
+    background-color: var(--pink);
+    padding: 30px;
+    max-width: 300px;
+    margin: 50px auto;
+    color: #ffffff;
+    font-style: italic;
+    border-radius: 15px 50px;
+}
+
+.cite {
+    background-color: var(--skyblue);
+    text-align: center;
+    border-left: solid 4px var(--blue);
+    padding: 15px;
+    margin: 15px auto;
+}
+
+figcaption {
+    text-align: right;
+    font-size: 15px;
+}
+
+footer {
+    background-color: var(--blue);
+    padding: 20px;
+    text-align: right;
+    color: var(--orange);
+    font-weight: 600;
+}
